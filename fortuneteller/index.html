@@ -19,10 +19,29 @@
     <img src="https://images.ecestaticos.com/iqgTGOeIJrB8pAZ_fWdQ6wTJnYw=/0x0:719x528/1200x1200/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fc63%2F27d%2F63f%2Fc6327d63f323db01875e013b3748eace.jpg" alt="Akinator" width="300" height="300">
     <form name="fortuneTeller" id="fortuneTeller" action="fortune.html">
       <label for="namefield">Name:</label>
-      <input type="text" id="namefield" name="name" placeholder="your name" required>
+      <input type="text" id="namefield" name="name" placeholder="Your name" required>
       <br>
       <label for="questionfield">Question:</label>
-      <input type="text" id="questionfield" name="question" placeholder="a yes or no question">
+      <input type="text" id="questionfield" name="question" placeholder="A yes or no question">
+      <br>
+      <label for="datefield">Date:</label>
+      <input type="date" id="datefield" name="date">
+      <br>
+      <label for="emailfield">Email:</label>
+      <input type="email" id="emailfield" name="email" placeholder="Your email address">
+      <br>
+      <label for="passwordfield">Password:</label>
+      <input type="password" id="passwordfield" name="password" placeholder="Your password">
+      <br>
+      <label for="themefield">Theme:</label>
+      <select name="themefield" name="theme">
+        <option value="Relationship decisions">Relationship decisions</option>
+        <option value="Mundane decisions">Mundane decisions</option>
+        <option value="Career decisions">Career decisions</option>
+      </select>
+      <br>
+      <label for="textarea">Additional information:</label>
+      <textarea id="textarea" name="additionalinfo" rows="4" cols="50" placeholder="Any additional information you would like to provide"></textarea>
       <br>
       <input type="submit">
     </form>
